@@ -1,0 +1,200 @@
+body {
+    font-family: monospace;
+    background-color: #F7F6F6;
+    margin: -30px 0px;
+    color: #203F54;
+}
+.polosa {
+    margin: 0px 25px 0px 430px;
+    height: 25px;
+    border-bottom: 1px solid #508EBF;
+}
+.polosa2 {
+    margin: 0px 25px 0px 430px;
+    height: 25px;
+    border-top: 1px solid #508EBF;
+}
+.nav {
+    background-color: #203F54;
+    padding: 25px 35px 0px 35px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 340px;
+}
+.logo {
+    float: left;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.nav h1 {
+    font-family: serif;
+    font-weight: lighter;
+    color: #DC97A5;
+    font-size: 32px;
+    text-align: right;
+    width: 270px;
+    height: 83px;
+}
+.nav article {
+    border-bottom: 1px solid #F7F6F6;
+}
+.nav nav a{
+    text-decoration: none;
+    color: #F7F6F6;
+    display: block;
+    margin: 25px 0px 25px 0px;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.nav nav a:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.nav nav a:focus {
+    text-shadow: 1px 1px 10px #F7F6F6;
+}
+
+.osoba {
+    font-weight: bold;
+     color: #CCDBEA;
+}
+header {
+    margin: 0px;
+    background-color: #DC97A5;
+            background: url('https://learn.logikaschool.com/uploads/student/2887252/6638e96d644b0.jpg') no-repeat 50% 40%;
+            background-size: cover;
+            font-family: sans-serif;
+            height: 140px;
+}
+header h1 {
+    color: #DC97A5;
+    text-align: right;
+    font-style: italic;
+    padding: 50px 40px;
+}
+main {
+    margin: 25px 25px 15px 430px;
+}
+main p {
+ text-align: center;
+ font-size: 18px;
+}
+.image div {
+    background-color: #DC97A5;
+    background: url('https://learn.logikaschool.com/uploads/student/2887252/6638ed67d4b33.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+    width: auto;
+    height: 110px;
+        padding: 42px 95px 42px 95px;
+}
+.image {
+    text-decoration: none;
+}
+
+
+.image div p {
+    height: 27px;
+    font-size: 36px;
+    color: #F7F6F6;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 2px -5px 0 #000;
+}
+.image2 {
+    margin-top: 290px;
+        background: url('https://learn.logikaschool.com/uploads/student/2887252/6638f050f07a3.png') no-repeat 50% 50%;
+        background-size: contain;
+        width: 135px;
+        height: 135px;
+        margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 45px;
+}
+.image2 p {
+    color: #DC97A5;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+footer {
+    background-color: #508EBF;
+    padding: 20px 15px 15px 420px;
+    height: 154px;
+}
+footer h1 {
+    color: #F7F6F6;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0px;
+}
+.footer {
+    position: absolute;
+    margin-top: 15px;
+    font-size: 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footer h3 {
+    color: #F7F6F6;
+    font-weight: lighter;
+    margin: 0px;
+    font-size: 11px;
+}
+footer article {
+    position: absolute;
+    width: 127px;
+}
+.Lisa {
+    left: 140px;
+}
+.etc {
+    left: 299px;
+    margin-top: 16px;
+}
+footer a {
+    color: #CCDBEA;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+.I {
+    border-left: 1px solid #CCDBEA;
+    padding-left: 10px;
+}
+.social img {
+    width: 26px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.social {
+    position: absolute;
+    left: 810px;
+    top: 80px;
+        display: inline-flex;
+}
+
+.social img:hover {
+    transition: 0.3s;
+    border: 5px double #F7F6F6;
+}
+
+footer p {
+    width: 200px;
+    font-size: 10px;
+    position: absolute;
+    color: #DC97A5;
+    left: 935px;
+    bottom:15px;
+}
